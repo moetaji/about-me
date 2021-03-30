@@ -88,6 +88,7 @@
   }return luckyNumber
 }
  Qfive()
+
  function Qsix(){
 let animals=prompt("Do I love animals?")
 animals=animals.toLowerCase
@@ -101,7 +102,9 @@ if(animals==='yes' || animals==='y'){
 else{
   alert('please answer yes/y or no/n without space')
 }return animals
-} Qsix()   
+} Qsix() 
+
+    function Qseven(){
     let music
     let list =['rock','pop','rap'];
     for(let i=0;i<6;){
@@ -123,9 +126,13 @@ else{
       else{
         alert('try another time');
       }
+
       alert('attemt number'+ ++i)
       
     }
+
     alert('correct answers '+list);
+    return music
+  } Qseven()
     alert('result= '+score +'of 7' )
     alert("thank you for your time " + welcomeMsg);
