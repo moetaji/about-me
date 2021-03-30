@@ -5,6 +5,9 @@
     //console.log(welcomeMsg);
     alert('hello ' + welcomeMsg);
     let score=0;
+    function qone() {
+      
+    
     let age
     age = prompt('do you think im 25 years old yes/no ')
     age = age.toLocaleLowerCase();
@@ -17,7 +20,9 @@
     }
     else {
     alert("sorry y are wrong")
-    }
+    }return age
+  }qone()
+  
     let favortDrink
 
       favortDrink = prompt('do you think i like hot drinks yes/no')
