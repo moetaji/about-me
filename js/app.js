@@ -41,6 +41,7 @@
   }
   Qtwo()
 
+    function Qthree(){
     let smoker
     smoker = prompt('do you think i smoke yes/no')
     smoker = smoker.toLocaleLowerCase();
@@ -61,8 +62,9 @@
     }
     else {
     alert('well iam tall person')
-    }
-    
+    } return smoker
+  }
+  Qthree()
     
     let luckyNumber = ('')
     for (let i = 0; i < 4; i++) {
