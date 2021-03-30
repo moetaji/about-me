@@ -21,8 +21,11 @@
     else {
     alert("sorry y are wrong")
     }return age
-  }qone()
-  
+  }
+  qone()
+
+
+    function Qtwo(){
     let favortDrink
 
       favortDrink = prompt('do you think i like hot drinks yes/no')
@@ -34,7 +37,10 @@
     }
     else {
     alert('unfortunately i do love hot drinks')
-    }
+    }return favortDrink
+  }
+  Qtwo()
+
     let smoker
     smoker = prompt('do you think i smoke yes/no')
     smoker = smoker.toLocaleLowerCase();
