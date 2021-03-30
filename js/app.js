@@ -52,7 +52,10 @@
     else {
     alert('i do smoke sometime')
 
-    }
+    }return smoker
+  }Qthree()
+
+    function Qfour(){
     let tall
     tall = prompt('do u think im tall yes/no')
     if (tall === 'yes' || tall === 'y') {
@@ -62,9 +65,9 @@
     }
     else {
     alert('well iam tall person')
-    } return smoker
-  }
-  Qthree()
+    }return tall 
+  }Qfour()
+  
     
     let luckyNumber = ('')
     for (let i = 0; i < 4; i++) {
