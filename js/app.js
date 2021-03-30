@@ -68,7 +68,7 @@
     }return tall 
   }Qfour()
   
-    
+    function Qfive(){
     let luckyNumber = ('')
     for (let i = 0; i < 4; i++) {
       luckyNumber = prompt('can you gusse my number from 1 to 10')
@@ -85,8 +85,8 @@
 
     }
   
-  }
-    
+  }return luckyNumber
+} Qfive() 
     let music
     let list =['rock','pop','rap'];
     for(let i=0;i<6;){
