@@ -80,13 +80,28 @@
       
     }
     else if(luckyNumber==7){
-      score=++
+      score++
       alert('you gusse it')
 
     }
   
   }return luckyNumber
-} Qfive() 
+}
+ Qfive()
+ function Qsix(){
+let animals=prompt("Do I love animals?")
+animals=animals.toLowerCase
+if(animals==='yes' || animals==='y'){
+  alert("yes , you right")
+  score++
+
+} else if(animals==="no" || animals==="n"){
+  alert("no, you are wrong")
+}
+else{
+  alert('please answer yes/y or no/n without space')
+}return animals
+} Qsix()   
     let music
     let list =['rock','pop','rap'];
     for(let i=0;i<6;){
