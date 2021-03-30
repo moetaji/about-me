@@ -135,4 +135,5 @@ else{
     return music
   } Qseven()
     alert('result= '+score +'of 7' )
-    alert("thank you for your time " + welcomeMsg);
+    alert("thank you for your time here " + welcomeMsg);
+   // hello
