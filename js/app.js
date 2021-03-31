@@ -10,9 +10,9 @@
     age = age.toLocaleLowerCase();
     //console.log(age);
     if (age === 'yes' || age === 'y') {
+      score=++
     //console.log(age);
     alert('you are correct');
-    score=+1
     
     }
     else {
@@ -24,8 +24,8 @@
       favortDrink = favortDrink.toLocaleLowerCase();
       //console.log(favortDrink);
       if (favortDrink === 'yes' || favortDrink === 'y') {
+        score=++
       alert('you are right i do love hot drinks')
-      score=+1
     }
     else {
     alert('unfortunately i do love hot drinks')
@@ -34,8 +34,8 @@
     smoker = prompt('do you think i smoke yes/no')
     smoker = smoker.toLocaleLowerCase();
     if (smoker === 'yes' || smoker === 'y') {
+      score=++
       alert(' yes i do smoke')
-      score=+1
     }
     else {
     alert('i do smoke sometime')
@@ -44,8 +44,8 @@
     let tall
     tall = prompt('do u think im tall yes/no')
     if (tall === 'yes' || tall === 'y') {
+      score=++
       alert('that is right im tall person')
-      score=+1
 
     }
     else {
@@ -53,31 +53,33 @@
     }
     
     
-    let luckyNumber = prompt('can you gusse my number from 1 to 10')
+    let luckyNumber = ('')
     for (let i = 0; i < 4; i++) {
+      luckyNumber = prompt('can you gusse my number from 1 to 10')
       if (luckyNumber <7)
       {alert('to low')
-      luckyNumber=prompt('try again')
     }
     else if(luckyNumber >7){
       alert('to high')
-      luckyNumber=prompt('try again')
+      
     }
     else if(luckyNumber==7){
-      score=+
+      score=++
       alert('you gusse it')
+
     }
+  
   }
     
     let music
     let list =['rock','pop','rap'];
     for(let i=0;i<6;){
       music=prompt('can you gusse what type of music i listen to?');
-      score=+1
       let correct=0;
-    for(let t=0;t<list.length;t++){
-      if(list[t].toLowerCase()===music.toLowerCase()){
-        alert('that is right');
+      for(let t=0;t<list.length;t++){
+        if(list[t].toLowerCase()===music.toLowerCase()){
+          score=+
+          alert('that is right');
         correct=1;
         break;
       }
