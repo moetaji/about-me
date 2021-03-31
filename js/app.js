@@ -5,6 +5,9 @@
     //console.log(welcomeMsg);
     alert('hello ' + welcomeMsg);
     let score=0;
+    function qone() {
+      
+    
     let age
     age = prompt('do you think im 25 years old yes/no ')
     age = age.toLocaleLowerCase();
@@ -17,7 +20,12 @@
     }
     else {
     alert("sorry y are wrong")
-    }
+    }return age
+  }
+  qone()
+
+
+    function Qtwo(){
     let favortDrink
 
       favortDrink = prompt('do you think i like hot drinks yes/no')
@@ -29,7 +37,11 @@
     }
     else {
     alert('unfortunately i do love hot drinks')
-    }
+    }return favortDrink
+  }
+  Qtwo()
+
+    function Qthree(){
     let smoker
     smoker = prompt('do you think i smoke yes/no')
     smoker = smoker.toLocaleLowerCase();
@@ -40,7 +52,10 @@
     else {
     alert('i do smoke sometime')
 
-    }
+    }return smoker
+  }Qthree()
+
+    function Qfour(){
     let tall
     tall = prompt('do u think im tall yes/no')
     if (tall === 'yes' || tall === 'y') {
@@ -50,9 +65,10 @@
     }
     else {
     alert('well iam tall person')
-    }
-    
-    
+    }return tall 
+  }Qfour()
+  
+    function Qfive(){
     let luckyNumber = ('')
     for (let i = 0; i < 4; i++) {
       luckyNumber = prompt('can you gusse my number from 1 to 10')
@@ -64,13 +80,31 @@
       
     }
     else if(luckyNumber==7){
-      score=++
+      score++
       alert('you gusse it')
 
     }
   
-  }
-    
+  }return luckyNumber
+}
+ Qfive()
+
+ function Qsix(){
+let animals=prompt("Do I love animals?")
+animals=animals.toLowerCase
+if(animals==='yes' || animals==='y'){
+  alert("yes , you right")
+  score++
+
+} else if(animals==="no" || animals==="n"){
+  alert("no, you are wrong")
+}
+else{
+  alert('please answer yes/y or no/n without space')
+}return animals
+} Qsix() 
+
+    function Qseven(){
     let music
     let list =['rock','pop','rap'];
     for(let i=0;i<6;){
@@ -92,9 +126,14 @@
       else{
         alert('try another time');
       }
+
       alert('attemt number'+ ++i)
       
     }
+
     alert('correct answers '+list);
+    return music
+  } Qseven()
     alert('result= '+score +'of 7' )
-    alert("thank you for your time " + welcomeMsg);
+    alert("thank you for your time here " + welcomeMsg);
+   // hello
